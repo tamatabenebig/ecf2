@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/e4dc710ea2.js" crossorigin="anonymous"></script>
+  <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.0/jquery.min.js"></script>
+  <title>Store CSS</title>
+</head>
+
+<body>
+  <nav>
+    <div id="logo">
+      <img src="media/logo.png" alt="logo">
+    </div>
+    <div id=nav ul>
+      <ul>
+        <li><a href="index.html">HOME</a></li>
+        <li><a href="#">SHOP</li>
+          <i class="fas fa-caret-down"></i>
+        <li><a href="#">JOURNAL</a></li>
+        <li><a href="#">MORE</a></li>
+        <i class="fas fa-caret-down"></i>
+      </ul>
+    </div>
+    <div id=cart>
+      <ul>
+        <li><a href="page2.html">MY CART (2)</a></li>
+        <i class="fas fa-caret-down"></i>
+      </ul>
+    </div>
+  </nav>
+  <fieldset>
+    <div class="outer-div">
+    <h1>Shopping Cart</h1>
+    <div class="wrapper">
+      <div>product</div>
+      <div>quantity</div>
+      <div>Total</div>
+      <div>action</div>
+    
+    </div>
+        <hr>
+        <div class="article">
+
+            <div class="item1">
+
+                <img class="thumbnails" src="media/hand-painted-blue-flat-dish.jpg" alt="">
+
+            </div>
+            <p class="item">kiriko <br>HAND PAINTED BLUE FLAT DISH <br> color <b>white</b></p>
+            <div>
+
+                <label for="total"></label>
+                <input type="number" name="" value="1" id="number" >
+                <ul>
+                  <li><button type="button" class="product-qty-btn product-qty-up btn">+</button></li>
+                  <li><button type="button" class="product-qty-btn product-qty-down btn">-</button></li>
+                 </ul>
+            </div>
+            <div class="price">$18.00</div>
+            <div class="delete">X</div>
+
+        </div>
+        <hr>
+        <div class="article">
+
+            <div class="item2">
+                <img class="thumbnails" src="media/mashiko-yaki-indigo-small-plate.jpg" alt="mashiko-yaki-indigo-small-plate">
+
+            </div>
+            <p class="item">kiriko <br>HAND PAINTED BLUE FLAT DISH <br> color <b>white</b></p>
+            <div>
+                <label for="quantity"></label>
+                <input type="number" name="" value="1" id="number" >
+                <ul>
+                  <li><button type="button" class="product-qty-btn product-qty-up btn">+</button></li>
+                  <li><button type="button" class="product-qty-btn product-qty-down btn">-</button></li>
+                 </ul>
+            </div>
+
+            <div class="price">$18.00</div>
+            <div class="delete">X</div>
+        </div>
+
+        <div id=checkout>
+            <input type="submit" value="CHECKOUT ($56.00)">
+        </div>
+
+    </div>
+    </div>
+    </fieldset>  
+    
+  
+</body>
+
+</html>
